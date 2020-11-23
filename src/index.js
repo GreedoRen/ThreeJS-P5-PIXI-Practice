@@ -1,5 +1,8 @@
+const fish = document.getElementById('fish_colored')
+
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
 
 ctx.drawImage(image, dx, dy, dWidth, dHeight)
-ctx.getImageData(sx, sy, sw, sh);
+ctx.getImageData(sx, sy, sw, sh)
+
