@@ -6,5 +6,3 @@ const ctx = canvas.getContext('2d')
 ctx.drawImage(fish, 0, 0, fish.width, fish.hight)
 ctx.getImageData(0, 0, fish.width, fish.hight)
 
-console.log(ctx)
-
