@@ -1,4 +1,5 @@
 const fish = document.getElementById('fish_colored')
+const fishGrayscale = document.getElementById('fish_frayscaled')
 
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
