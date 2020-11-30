@@ -6,6 +6,9 @@ const ctx = canvas.getContext('2d')
 
 ctx.drawImage(fish, 0, 0, fish.width, fish.hight)
 let data = ctx.getImageData(0, 0, fish.width, fish.hight)
-
 ctx.putImageData(data, 0, 0)
+
+ctx.drawImage(fishGrayscale, 0, 0, fishGrayscale.width, fishGrayscale.hight)
+let grayData = ctx.getImageData(0, 0, fishGrayscale.width, fishGrayscale.hight)
+ctx.putImageData(grayData, 0, 0)
 
